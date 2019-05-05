@@ -1,6 +1,6 @@
 {% set name = "robotstatuschecker" %}
-{% set version = "1.3" %}
-{% set sha256 = "f762e6c7097a61518bfd94afab9896304825443e779cd9a8f150d36d65bb1726" %}
+{% set version = "1.4" %}
+{% set sha256 = "c606eebdf2f28063dcb483e43fd6bc511e84e99a9f7d004163a180be558e58f6" %}
 
 package:
   name: {{ name }}
