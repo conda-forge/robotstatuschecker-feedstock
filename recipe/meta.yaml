@@ -1,5 +1,5 @@
 {% set name = "robotstatuschecker" %}
-{% set version = "1.5.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 96bf3665f5378f83764b5b8441fa1bdc88a8e279006a4dd6f0e031c28c89e204
+  sha256: 1ec929b270c324bfe8af5ff596f3bec240e5ab731c7daf62428826353aa9ac30
 
 build:
   noarch: python
