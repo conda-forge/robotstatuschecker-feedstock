@@ -1,13 +1,11 @@
-{% set name = "robotstatuschecker" %}
 {% set version = "2.2.0" %}
 
 package:
-  name: {{ name }}
+  name: robotstatuschecker
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/r/robotstatuschecker/robotstatuschecker-{{ version }}.tar.gz
   sha256: 46e0092cf52712d03d217aa0135a17a3a15c637ce5220de4044da1f939300421
 
 build:
@@ -36,14 +34,11 @@ about:
     Tool for validating that executed Robot Framework test cases have expected
     statuses and log messages.
 
-  doc_url: http://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
-  dev_url: https://github.com/robotframework/SeleniumLibrary
   description: |
     StatusChecker is a tool for validating that executed Robot Framework test
     cases have expected statuses and log messages. It is mainly useful for
     Robot Framework test library developers who want to use Robot Framework to
-    also test their libraries. StatusChecker 1.3 and newer are compatible both
-    with Python 2 and Python 3.
+    also test their libraries.
 
 extra:
   recipe-maintainers:
