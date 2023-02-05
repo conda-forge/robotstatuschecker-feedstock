@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: robotstatuschecker
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/r/robotstatuschecker/robotstatuschecker-{{ version }}.tar.gz
-  sha256: 46e0092cf52712d03d217aa0135a17a3a15c637ce5220de4044da1f939300421
+  sha256: e39b6f76770922c95ac950b84bf21d5bc8cb0500e6636a057a8671d7a5152a38
 
 build:
   noarch: python
