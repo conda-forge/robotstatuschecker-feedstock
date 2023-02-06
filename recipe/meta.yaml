@@ -19,7 +19,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - robotframework
+    - robotframework >=5
 
 test:
   imports:
