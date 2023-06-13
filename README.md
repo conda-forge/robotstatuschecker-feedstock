@@ -1,11 +1,11 @@
-About robotstatuschecker
-========================
+About robotstatuschecker-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robotstatuschecker-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/robotframework/statuschecker
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robotstatuschecker-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tool for validating that executed Robot Framework test cases have expected
 statuses and log messages.
