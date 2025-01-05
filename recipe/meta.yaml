@@ -5,23 +5,25 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/r/robotstatuschecker/robotstatuschecker-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/r/robotstatuschecker/robotstatuschecker-{{ version }}.tar.gz
   sha256: 4a761a0d59c0a764d479364855f045aba371ecf94a69a43e6f378bd0592a9112
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - robotframework >=5
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - robotstatuschecker
 
