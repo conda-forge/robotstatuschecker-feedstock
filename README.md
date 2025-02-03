@@ -10,12 +10,10 @@ Package license: Apache-2.0
 Summary: Tool for validating that executed Robot Framework test cases have expected
 statuses and log messages.
 
-
 StatusChecker is a tool for validating that executed Robot Framework test
 cases have expected statuses and log messages. It is mainly useful for
 Robot Framework test library developers who want to use Robot Framework to
 also test their libraries.
-
 
 Current build status
 ====================
