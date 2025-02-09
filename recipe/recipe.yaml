@@ -22,7 +22,7 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools  >=75.8.0
+    - setuptools >=75.8.0
   run:
     - python >=${{ python_min }}
     - robotframework >=6.1.1
