@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "4.1.0"
+  version: "4.1.1"
 
 package:
   name: robotstatuschecker
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/robotstatuschecker/robotstatuschecker-${{ version }}.tar.gz
-  sha256: f56647c15d285e05d82d0e8bd1a3cc5d0b645f8a02498e2457a7e02f4371d150
+  sha256: 5ebe9454beb6fde8aca299161a12389642b074c234deb1f860b6f699a8608e84
 
 build:
   number: 0
