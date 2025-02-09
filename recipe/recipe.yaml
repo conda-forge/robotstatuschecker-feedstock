@@ -22,10 +22,10 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - setuptools  >=75.8.0
   run:
     - python >=${{ python_min }}
-    - robotframework >=5
+    - robotframework >=6.1.1
 
 tests:
   - python:
@@ -35,7 +35,7 @@ tests:
 
 about:
   license: Apache-2.0
-  license_file: apache-2.0.txt
+  license_file: LICENSE.txt
   summary: |
     Tool for validating that executed Robot Framework test cases have expected
     statuses and log messages.
